@@ -1,0 +1,534 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "type": "default",
+            "data": {
+                "label": "imyoowgmgq",
+                "color": "blue"
+            },
+            "position": {
+                "x": 30,
+                "y": 166
+            }
+        },
+        {
+            "id": "1",
+            "type": "default",
+            "data": {
+                "label": "jfnkrwhzyc",
+                "color": "green"
+            },
+            "position": {
+                "x": 386,
+                "y": 864
+            }
+        },
+        {
+            "id": "2",
+            "type": "default",
+            "data": {
+                "label": "tlkiehnydd",
+                "color": "green"
+            },
+            "position": {
+                "x": 405,
+                "y": 178
+            }
+        },
+        {
+            "id": "3",
+            "type": "default",
+            "data": {
+                "label": "xnobyidlam",
+                "color": "red"
+            },
+            "position": {
+                "x": 537,
+                "y": 626
+            }
+        },
+        {
+            "id": "4",
+            "type": "default",
+            "data": {
+                "label": "byqvtznvdi",
+                "color": "red"
+            },
+            "position": {
+                "x": 34,
+                "y": 275
+            }
+        },
+        {
+            "id": "5",
+            "type": "default",
+            "data": {
+                "label": "qxmrhvgakt",
+                "color": "red"
+            },
+            "position": {
+                "x": 244,
+                "y": 244
+            }
+        },
+        {
+            "id": "6",
+            "type": "default",
+            "data": {
+                "label": "pkuyyhuzsi",
+                "color": "green"
+            },
+            "position": {
+                "x": 70,
+                "y": 688
+            }
+        },
+        {
+            "id": "7",
+            "type": "default",
+            "data": {
+                "label": "ifvopcfpzp",
+                "color": "red"
+            },
+            "position": {
+                "x": 394,
+                "y": 19
+            }
+        },
+        {
+            "id": "8",
+            "type": "default",
+            "data": {
+                "label": "ldzetmuvti",
+                "color": "blue"
+            },
+            "position": {
+                "x": 631,
+                "y": 24
+            }
+        },
+        {
+            "id": "9",
+            "type": "default",
+            "data": {
+                "label": "gciqfgnrqm",
+                "color": "blue"
+            },
+            "position": {
+                "x": 423,
+                "y": 437
+            }
+        },
+        {
+            "id": "10",
+            "type": "default",
+            "data": {
+                "label": "prpzhsjorp",
+                "color": "red"
+            },
+            "position": {
+                "x": 690,
+                "y": 91
+            }
+        },
+        {
+            "id": "11",
+            "type": "default",
+            "data": {
+                "label": "iearhnjfau",
+                "color": "red"
+            },
+            "position": {
+                "x": 640,
+                "y": 358
+            }
+        },
+        {
+            "id": "12",
+            "type": "default",
+            "data": {
+                "label": "oawhrknxjw",
+                "color": "blue"
+            },
+            "position": {
+                "x": 531,
+                "y": 416
+            }
+        },
+        {
+            "id": "13",
+            "type": "default",
+            "data": {
+                "label": "wbzdlwnwpr",
+                "color": "blue"
+            },
+            "position": {
+                "x": 853,
+                "y": 828
+            }
+        },
+        {
+            "id": "14",
+            "type": "default",
+            "data": {
+                "label": "nfvtlzqpyp",
+                "color": "blue"
+            },
+            "position": {
+                "x": 155,
+                "y": 855
+            }
+        },
+        {
+            "id": "15",
+            "type": "default",
+            "data": {
+                "label": "mzrtiueogb",
+                "color": "green"
+            },
+            "position": {
+                "x": 586,
+                "y": 135
+            }
+        },
+        {
+            "id": "16",
+            "type": "default",
+            "data": {
+                "label": "wwnlhfgsgg",
+                "color": "green"
+            },
+            "position": {
+                "x": 74,
+                "y": 847
+            }
+        },
+        {
+            "id": "17",
+            "type": "default",
+            "data": {
+                "label": "gvixzauxnv",
+                "color": "red"
+            },
+            "position": {
+                "x": 829,
+                "y": 270
+            }
+        },
+        {
+            "id": "18",
+            "type": "default",
+            "data": {
+                "label": "ccdsrmdyxy",
+                "color": "blue"
+            },
+            "position": {
+                "x": 4,
+                "y": 187
+            }
+        },
+        {
+            "id": "19",
+            "type": "default",
+            "data": {
+                "label": "yrhdixtczm",
+                "color": "green"
+            },
+            "position": {
+                "x": 402,
+                "y": 780
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": "0",
+            "target": 13,
+            "type":"default",
+            "data": {
+                "label": "lhlrsgzney",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": "1",
+            "target": 8,
+            "type":"default",
+            "data": {
+                "label": "whuwpbxyrs",
+                "color": "black"
+            }
+        },
+        {
+            "source": "1",
+            "target": 18,
+            "type":"default",
+            "data": {
+                "label": "odqqaazgpi",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": "2",
+            "target": 3,
+            "type":"default",
+            "data": {
+                "label": "lbuhjnzndr",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": "2",
+            "target": 4,
+            "type":"default",
+            "data": {
+                "label": "yhrkwvmlct",
+                "color": "black"
+            }
+        },
+        {
+            "source": "2",
+            "target": "17",
+            "type":"default",
+            "data": {
+                "label": "ugxshsfuyl",
+                "color": "black"
+            }
+        },
+        {
+            "source": 2,
+            "target": "19",
+            "type":"default",
+            "data": {
+                "label": "crjtoewaha",
+                "color": "black"
+            }
+        },
+        {
+            "source": 3,
+            "target": "6",
+            "type":"default",
+            "data": {
+                "label": "rxyvrbrzie",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": 3,
+            "target": "9",
+            "type":"default",
+            "data": {
+                "label": "gruzhbxers",
+                "color": "purple"
+            }
+        },
+        {
+            "source": 3,
+            "target": "13",
+            "type":"default",
+            "data": {
+                "label": "oloivyyaij",
+                "color": "purple"
+            }
+        },
+        {
+            "source": 4,
+            "target": "13",
+            "type":"default",
+            "data": {
+                "label": "rlsdvjajsj",
+                "color": "purple"
+            }
+        },
+        {
+            "source": 4,
+            "target": "16",
+            "type":"default",
+            "data": {
+                "label": "dggdmqbpty",
+                "color": "black"
+            }
+        },
+        {
+            "source": 6,
+            "target": "4",
+            "type":"default",
+            "data": {
+                "label": "blepsptbti",
+                "color": "black"
+            }
+        },
+        {
+            "source": 6,
+            "target": "8",
+            "type":"default",
+            "data": {
+                "label": "surgccbvzr",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": 7,
+            "target": "12",
+            "type":"default",
+            "data": {
+                "label": "mzfbpfjqfm",
+                "color": "purple"
+            }
+        },
+        {
+            "source": 9,
+            "target": "1",
+            "type":"default",
+            "data": {
+                "label": "xvruwgssdf",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": 10,
+            "target": "12",
+            "type":"default",
+            "data": {
+                "label": "rgssbohzon",
+                "color": "purple"
+            }
+        },
+        {
+            "source": 11,
+            "target": "14",
+            "type":"default",
+            "data": {
+                "label": "mwbgblubyx",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": 12,
+            "target": "5",
+            "type":"default",
+            "data": {
+                "label": "vsgolrldjh",
+                "color": "black"
+            }
+        },
+        {
+            "source": 14,
+            "target": "4",
+            "type":"default",
+            "data": {
+                "label": "yweztwqxfj",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": "14",
+            "target": "11",
+            "type":"default",
+            "data": {
+                "label": "hznriwdpes",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "14",
+            "target": "17",
+            "type":"default",
+            "data": {
+                "label": "hkubntkxgh",
+                "color": "black"
+            }
+        },
+        {
+            "source": "15",
+            "target": "5",
+            "type":"default",
+            "data": {
+                "label": "xjtroxyohd",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "15",
+            "target": "11",
+            "type":"default",
+            "data": {
+                "label": "ouyxsafhte",
+                "color": "yellow"
+            }
+        },
+        {
+            "source": "16",
+            "target": "9",
+            "type":"default",
+            "data": {
+                "label": "satiwnwfoo",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "17",
+            "target": "7",
+            "type":"default",
+            "data": {
+                "label": "usegpplqqg",
+                "color": "black"
+            }
+        },
+        {
+            "source": "17",
+            "target": "8",
+            "type":"default",
+            "data": {
+                "label": "pecbvjbegn",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "18",
+            "target": "2",
+            "type":"default",
+            "data": {
+                "label": "nxntyngfxa",
+                "color": "black"
+            }
+        },
+        {
+            "source": "18",
+            "target": "10",
+            "type":"default",
+            "data": {
+                "label": "idkmjouhue",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "19",
+            "target": "7",
+            "type":"default",
+            "data": {
+                "label": "jkljzmoihm",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "19",
+            "target": "10",
+            "type":"default",
+            "data": {
+                "label": "lrgjswujtv",
+                "color": "purple"
+            }
+        },
+        {
+            "source": "19",
+            "target": "15",
+            "type":"default",
+            "data": {
+                "label": "ulxpuplzjj",
+                "color": "black"
+            }
+        }
+    ]
+}
