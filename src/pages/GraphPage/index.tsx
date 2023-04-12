@@ -1,1 +1,1 @@
-export { default as GraphPage } from './GraphPage';
+export {GraphPage} from './GraphPage';

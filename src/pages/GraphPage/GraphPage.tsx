@@ -1,47 +1,45 @@
-import { Box } from "@mui/material";
-import { FC, useCallback, useEffect, useMemo, useState } from "react";
-import { useReactFlow } from "reactflow";
-import GraphFilters from "./GraphFilters";
-import InteractiveGraph from "./GraphView";
-import useGetGraphData from "./useGetGraphData";
+import {Box}                                  from '@mui/material';
+import {useReactFlow}                         from 'reactflow';
+import {FC, useCallback, useEffect, useState} from 'react';
 
-type Props = {};
+import {GraphFiltersType, GraphFilters}       from './GraphFilters';
+import {GraphView}                            from './GraphView';
+import {useGetGraphData}                      from './useGetGraphData';
 
-const GraphPage: FC<Props> = () => {
-    const reactFlowInstance = useReactFlow()
-    const { data, error, isLoading } = useGetGraphData();
-    const [filters, setFilters] = useState<GraphFilters>({});
 
-    const filteredData = useEffect(() => {
-        if (!data) return;
+export const GraphPage: FC = () => {
+  const reactFlowInstance = useReactFlow();
+  const {data, error, isLoading} = useGetGraphData();
+  const [filters, setFilters] = useState<GraphFiltersType>({});
 
-        const { color } = filters;
-        const { nodes } = data;
+  const filteredData = useEffect(() => {
+    if (!data) return;
 
-        let next = nodes;
+    const {color} = filters;
+    const {nodes} = data;
 
-        if (color) {
-            next = data.nodes.filter(({ data }: any) => data.color === color);
-        }
+    let next = nodes;
 
-        reactFlowInstance.setNodes(next);
-    }, [data, filters])
+    if (color)
+      next = data.nodes.filter(({data}: any) => data.color === color);
 
-    const handleChange = useCallback((next: Partial<GraphFilters>) => {
-        setFilters({ ...filters, ...next });
-    }, [setFilters])
 
-    return (
-        <Box sx={{ width: 900, height: 700 }}>
+    reactFlowInstance.setNodes(next);
+  }, [data, filters]);
 
-            {error && <div>Something went wrong</div>}
-            {isLoading && <div>Loading..</div>}
-            {data && <>
-                <GraphFilters options={{ colors: ['red', 'blue', 'green'] }} initialFilters={{}} onFiltersChange={handleChange} />
-                <InteractiveGraph nodes={filteredData as any} edges={data.edges as any} />
-            </>}
-        </Box>
-    );
-}
+  const handleChange = useCallback((next: Partial<GraphFiltersType>) => {
+    setFilters({...filters, ...next});
+  }, [setFilters]);
 
-export default GraphPage
+  return (
+    <Box sx={{width: 900, height: 700}}>
+
+      {error && <div>Something went wrong</div>}
+      {isLoading && <div>Loading..</div>}
+      {data && <>
+        <GraphFilters options={{colors: [`red`, `blue`, `green`]}} initialFilters={{}} onFiltersChange={handleChange} />
+        <GraphView nodes={filteredData as any} edges={data.edges as any} />
+      </>}
+    </Box>
+  );
+};
